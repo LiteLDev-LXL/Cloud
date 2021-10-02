@@ -1,0 +1,19 @@
+{
+    "FILE_Version": 202,
+    "Force_Update": false,
+    "DisableClientUpdate": false,
+    "Updates": [
+        {
+            "NumVer": 231,
+            "Version": "2.31",
+            "Description": [],
+            "FileChanged": []
+        }
+    ],
+    "Announcement": {
+        "enabled": false,
+        "content": [
+            "测试公告"
+        ]
+    }
+}
