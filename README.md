@@ -5,7 +5,7 @@
 
 另外，相对于单纯使用Jsdelivr的更新检查，本项目：
  - 使用随机目录名绕过缓存，JSD在大陆的缓存很难使用Purge刷新。
- - 支持自动对文件生成MD5校验文件
+ - 支持自动对文件生成`.md5.verify`校验文件
  - 支持自定义自动运行脚本
 
 ## TOS
@@ -13,8 +13,8 @@
  - **不要修改随机文件夹的文件夹名**
  - 不要修改随机文件夹中的文件，这是无效的！
  - 不要修改其他人文件夹中的文件，除非得到授意。
- - 如果使用__AUTORUN__.sh，**不要在脚本中放置任何恶意代码**
- - 如果使用__AUTORUN__.sh，**及时修改脚本中的错误(如果有)** 因为这会中断Actions进程。
+ - 如果使用`__AUTORUN__.sh`，**不要在脚本中放置任何恶意代码**
+ - 如果使用`__AUTORUN__.sh`，**及时修改脚本中的错误(如果有)** 因为这会中断Actions进程。
  - 存储的内容不得违反Jsdelivr或Github相关政策
  > LXL Team保留对所有文件和成员操作权限的管理权力，<br>
  > 如果你对以上内容有异议，请勿使用本存储库服务。如果你违反了以上TOS，您的相关权益可能被撤销。
@@ -40,10 +40,9 @@ server += token
  ```bash
  # Path: ./iLand/__AUTORUN__.sh
  # iLand 自动从上游仓库同步语言文件到此仓库
- rm -rf i18n-data
  git clone https://github.com/LiteLDev-LXL/iLand-Core.git
- cp -R iLand-Core/3rd-languages/ i18n-data
- cp -R iLand-Core/iland/lang/ i18n-data
+ cp -R iLand-Core/3rd-languages/* i18n-data
+ cp -R iLand-Core/iland/lang/* i18n-data
  rm -rf iLand-Core
  echo "iland's corn is completed."
  ```
