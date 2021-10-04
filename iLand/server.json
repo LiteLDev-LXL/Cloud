@@ -4,16 +4,16 @@
     "DisableClientUpdate": false,
     "Updates": [
         {
-            "NumVer": 231,
-            "Version": "2.31",
+            "NumVer": 240,
+            "Version": "2.40",
             "Description": [],
             "FileChanged": []
         }
     ],
     "Announcement": {
-        "enabled": false,
+        "enabled": true,
         "content": [
-            "测试公告"
+            "Test only~"
         ]
     }
 }
