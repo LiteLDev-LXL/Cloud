@@ -10,7 +10,7 @@
  - 稳定，JSDelivr 全球高速连接
 
 另外，相对于单纯使用 JSD 的更新检查，本项目：
- - 使用随机目录名绕过缓存。众所周知，JSD 在大陆的缓存很难使用 Purge 刷新。
+ - 使用随机目录名绕过缓存。众所周知，JSD 在大陆的缓存很难使用 purge 刷新。
  - 支持自动对文件生成`.md5.verify`校验文件
  - 支持自定义自动运行脚本
 
@@ -40,15 +40,16 @@
 
 ```javascript
 // 访问中继索引文件
-let tknResult = HttpGet("https://lxl-cloud.amd.rocks/id.json")
+let remote = HttpGet("https://lxl-cloud.amd.rocks/id.json")
 // 单纯使用Jsdelivr并不能绕过id缓存。因此使用Cloudflare CDN下载中继文件，获取中继目录名后再使用速度较快的Jsdelivr进行加速
-let token = JSON.parse(tknResult.data).token;
+let json = JSON.parse(remote.data)	//Json格式：{ "token": "中继目录名" }
+let dir = json.token;	 //获取中继目录名
 
 // *目标文件的下载地址（中间加上了"token"目录）
-let downloadUrl = "https://cdn.jsdelivr.net/gh/LiteLDev-LXL/Cloud/" + token + "/Test/version.json"
+let downloadUrl = "https://cdn.jsdelivr.net/gh/LiteLDev-LXL/Cloud/" + dir + "/Test/version.json"
 
 // *目标文件的MD5校验数据地址
-let md5Url = "https://cdn.jsdelivr.net/gh/LiteLDev-LXL/Cloud/" + token + "/Test/version.json.md5.verify"
+let md5Url = "https://cdn.jsdelivr.net/gh/LiteLDev-LXL/Cloud/" + dir + "/Test/version.json.md5.verify"
 ```
 使用上面给出的两个拼接的下载地址，下载你需要的目标文件和MD5校验数据即可。
 
