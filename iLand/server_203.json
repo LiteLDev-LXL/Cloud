@@ -1,7 +1,7 @@
 {
     "FILE_Version": 203,
     "Force_Update": false,
-    "DisableClientUpdate": false,
+    "DisableClientUpdate": true,
     "Updates": [
         {
             "NumVer": 242,
@@ -13,12 +13,7 @@
                 "[~] 修复购买领地后打开的领地错误的问题",
                 "[~] 修复升级配置文件时可能导致旧数据丢失的Bug"
             ],
-            "FileChanged": [
-                "$plugin_path::iland-core.lua",
-                "$data_path::lang\\zh_CN.json",
-                "$data_path::lang\\zh_TW.json",
-                "$data_path::lang\\en_US.json"
-            ],
+            "FileChanged": [],
             "LXL": [
                 [0,5,8]
             ]
