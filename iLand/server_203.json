@@ -4,6 +4,18 @@
     "DisableClientUpdate": true,
     "Updates": [
         {
+            "NumVer": 244,
+            "Version": "2.44",
+            "Description": [
+                "[~] 加回dkjson以解决LXL自带的Json接口引发的问题"
+            ],
+            "FileChanged": [],
+            "LXL": [
+                [0,5,8],
+                [0,5,10]
+            ]
+        },
+        {
             "NumVer": 243,
             "Version": "2.43",
             "Description": [
@@ -49,9 +61,9 @@
         }
     ],
     "Announcement": {
-        "enabled": true,
+        "enabled": false,
         "content": [
-            "Test only~"
+            ""
         ]
     }
 }
