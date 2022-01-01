@@ -1,5 +1,5 @@
 {
-    "VERSION": 242,
+    "VERSION": 243,
     "#1": "zh_CN 标准汉语翻译贡献者：RedbeanW",
     
     "gui.land.title": "Land v<a>",
@@ -21,7 +21,6 @@
     "gui.general.complete": "操作已完成。",
     "gui.general.back": "返回上级菜单",
     "gui.general.close": "关闭",
-    "gui.general.buy": "购买",
     "gui.general.yes": "确认",
     "gui.general.looklook": "看看",
     "gui.general.iknow": "我知道了",
@@ -113,12 +112,8 @@
     "gui.oplandmgr.trsland.content": "强制将领地过户，所有权限将被转移。",
     "gui.oplandmgr.unknownland": "找不到该领地的主人",
     "gui.oplandmgr.selectoption": "选择要进行的操作",
-    "gui.oplandmgr.landcfg": "§l领地配置",
-    "gui.oplandmgr.landcfg.maxland": "玩家最多拥有领地",
-    "gui.oplandmgr.landcfg.maxsqu": "领地最大面积",
-    "gui.oplandmgr.landcfg.minsqu": "领地最小面积",
-    "gui.oplandmgr.landcfg.refundrate": "删除领地退款率 (%%)",
     "gui.oplandmgr.mgrtype.land": "管理领地数据",
+    "gui.oplandmgr.mgrtype.plugin": "管理插件设置",
     "gui.oplandmgr.mgrtype.listener": "管理监听器",
     "gui.oplandmgr.landmgr.tip": "选择管理模式",
     "gui.oplandmgr.landmgr.byplayer": "按玩家管理",
@@ -131,6 +126,8 @@
     "gui.oplandmgr.landmgr.landtp.title": "全局领地传送",
     "gui.oplandmgr.landmgr.landtp.tip": "轻按以传送到指定领地",
     "gui.oplandmgr.landmgr.byfeet.errbynull": "脚下没有领地",
+    "gui.oplandmgr.plugin.title": "插件设置",
+    "gui.oplandmgr.plugin.tip": "此处可以配置插件，修改即时生效。",
     "gui.listenmgr.title": "监听器管理器",
     "gui.listenmgr.tip": "§l警告§r 不要随意关闭一个监听器，除非你知道你在干什么！",
     
@@ -138,9 +135,12 @@
     "gui.buyland.unsupport": "本服暂不支持 <a> 圈地",
     "gui.buyland.2d": "二维领地",
     "gui.buyland.3d": "三维领地",
-    "gui.buyland.content": "圈地成功！\\n长\\\\宽\\\\高: <a>\\\\<b>\\\\<c>格\\n体积: <d>块\\n价格: <e><f> \\n钱包: <g><f>",
+    "gui.buyland.content": "圈地完成！\n体积: <a>x<b>x<c> <d>块\n价格: <e><f> \n钱包: <g><f>",
     "gui.buyland.succeed": "领地购买成功！是否现在打开领地管理器？",
-    "gui.buyland.discount": " （已折扣<a>%%%%）",
+    "gui.buyland.discount": " （已折扣<a>%%）",
+    "gui.buyland.button.confirm": "确认购买",
+    "gui.buyland.button.close": "暂存",
+    "gui.buyland.button.cancel": "取消订单",
     "gui.delland.content": "您确定要删除您的领地吗？\\n如果确定，您将得到<a><b>退款。然后您的领地将失去保护，数据将立刻被删除。",
     "gui.landdescribe.tip": "领地备注会在其他访客来到您的领地时发送给他们。\n\n支持变量：\n$visitor = 造访者名称\n$n = 换行符",
     "gui.landtrust.tip": "选择操作模式",
@@ -184,6 +184,12 @@
     "gui.playerselector.continue": "下一页",
     "gui.playerselector.back": "上一页",
     "gui.playerselector.num": "第<a>页",
+
+    "gui.rangeselector.title": "Y轴调整",
+    "gui.rangeselector.tip": "你可以在这里调整现有的起点与终点的高度，如果不需要调整直接提交即可。",
+    "gui.rangeselector.selectedpos": "已选定: <a>,§l<b>§r,<c> >> <d>,§l<e>§r,<f>",
+    "gui.rangeselector.movestarty": "起点Y轴",
+    "gui.rangeselector.moveendy": "终点Y轴",
 
     "title.rangeselector.inmode": "[ 圈地模式 ]",
     "title.rangeselector.selectpoint": "请手持 <a>, 点击方块或使用 /land set 选定 <b> 点。",
@@ -332,6 +338,6 @@
 
     "console.error.money.protocol": "正在使用未知的经济组件 '<a>'。",
     "console.error.money.scorenull": "无法访问计分板对象，可能对应的经济计分板不存在。请使用/land mgr更改为正确计分板或尝试重启服务器。",
-    "console.error.readowner.xuid": "无法识别 XUID（<a>），玩家不存在于XUID数据库，跳过读入。",
-    "console.error.readowner.tipxid": "尝试使用 \"land repair 1\" 删除无效的玩家，或令玩家重新进入服务器以使XUID数据库记录。"
+    "console.error.readowner.xuid": "无法识别玩家（xuid = <a>），因为这个XUID在数据库中找不到，跳过读取...",
+    "console.error.readowner.tipxid": "以上警告暂不影响插件运行，请让对应XUID的玩家重新进入服务器以使数据库记录。"
 }
