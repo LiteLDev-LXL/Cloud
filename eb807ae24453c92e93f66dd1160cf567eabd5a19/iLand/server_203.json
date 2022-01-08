@@ -1,7 +1,7 @@
 {
     "FILE_Version": 203,
-    "Force_Update": false,
-    "DisableClientUpdate": true,
+    "Force_Update": true,
+    "DisableClientUpdate": false,
     "Updates": [
         {
             "NumVer": 245,
@@ -15,7 +15,12 @@
                 "MineBBS: https://www.minebbs.com/resources/iland-gui-50-api.2162/",
                 "Github:  https://github.com/LiteLDev-LXL/iLand-Core/releases"
             ],
-            "FileChanged": [],
+            "FileChanged": [
+                "$plugin_path::iland-core.lua",
+                "$data_path::lang\\zh_CN.json",
+                "$data_path::lang\\en_US.json",
+                "$data_path::lang\\zh_TW.json"
+            ],
             "LXL": [
                 [0,5,10]
             ]
