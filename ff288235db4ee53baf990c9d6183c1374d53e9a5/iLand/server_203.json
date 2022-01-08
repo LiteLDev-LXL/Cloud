@@ -4,6 +4,23 @@
     "DisableClientUpdate": true,
     "Updates": [
         {
+            "NumVer": 245,
+            "Version": "2.45",
+            "Description": [
+                "严重Bug修复！！所有用户必须马上更新！",
+                "严重Bug修复！！所有用户必须马上更新！",
+                "严重Bug修复！！所有用户必须马上更新！",
+                "严重Bug修复！！所有用户必须马上更新！",
+                "严重Bug修复！！所有用户必须马上更新！",
+                "MineBBS: https://www.minebbs.com/resources/iland-gui-50-api.2162/",
+                "Github:  https://github.com/LiteLDev-LXL/iLand-Core/releases"
+            ],
+            "FileChanged": [],
+            "LXL": [
+                [0,5,10]
+            ]
+        },
+        {
             "NumVer": 244,
             "Version": "2.44",
             "Description": [
