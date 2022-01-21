@@ -78,7 +78,7 @@
         }
     ],
     "Announcement": {
-        "enabled": true,
+        "enabled": false,
         "content": [
             "Test text."
         ]
