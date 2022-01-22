@@ -4,6 +4,29 @@
     "DisableClientUpdate": true,
     "Updates": [
         {
+            "NumVer": 260,
+            "Version": "2.60",
+            "Description": [
+                "[+] 适配LXL0.5.12，修复活塞控制",
+                "[+] 加入插件热管理命令 land reload, land unload",
+                "[+] 现在查看领地信息只展示部分LandID",
+                "[+] 活塞推动限制现在只作用于领地附近，而非领地内部",
+                "[+] 新增领地外红石更新控制",
+                "[+] 加回GUI插件配置编辑器",
+                "[+] 新增ILAPI IsListenerDisabled, GetApiVersion",
+                "[+] 修改领地价格计算方式，直接输入算式，可读性与可拓展性更好（见文档）",
+                "[+] 增强config.json读取方式，现在可以自动补全漏项和删除多余项",
+                "[~] 修复重选领地范围报错",
+                "[~] 修复领地传送提示不安全，现在会自动等待区块加载",
+                "[~] 修复在线公告",
+                "[-] 删除特殊控制项UseItem"
+            ],
+            "FileChanged": [],
+            "LXL": [
+                [0,5,12]
+            ]
+        },
+        {
             "NumVer": 245,
             "Version": "2.45",
             "Description": [
