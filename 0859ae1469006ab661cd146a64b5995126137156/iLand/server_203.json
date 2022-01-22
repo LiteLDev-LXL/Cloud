@@ -1,11 +1,31 @@
 {
     "FILE_Version": 203,
-    "Force_Update": false,
-    "DisableClientUpdate": true,
+    "Force_Update": true,
+    "DisableClientUpdate": false,
     "Updates": [
+        
         {
-            "NumVer": 261,
-            "Version": "2.61",
+            "NumVer": 262,
+            "Version": "2.62",
+            "Description": [
+                "[~] 修复修改语言不起作用的问题",
+                "[~] 修复语言包的一处问题",
+                "[~] 修复2.60中GUI配置编辑器操作square_range引起的问题",
+                "[~] 修复框选领地过程中使用/land buy或/land ok引发的报错"
+            ],
+            "FileChanged": [
+                "$plugin_path::iland-core.lua",
+                "$data_path::lang/zh_CN.json",
+                "$data_path::lang/en_US.json",
+                "$data_path::lang/zh_TW.json"
+            ],
+            "LXL": [
+                [0,5,12]
+            ]
+        },
+        {
+            "NumVer": 260,
+            "Version": "2.60",
             "Description": [
                 "[+] 适配LXL0.5.12，修复活塞控制",
                 "[+] 加入插件热管理命令 land reload, land unload",
@@ -19,7 +39,6 @@
                 "[~] 修复重选领地范围报错",
                 "[~] 修复领地传送提示不安全，现在会自动等待区块加载",
                 "[~] 修复在线公告",
-                "[~] 修复修改语言不起作用的问题",
                 "[-] 删除特殊控制项UseItem"
             ],
             "FileChanged": [],
@@ -102,9 +121,9 @@
         }
     ],
     "Announcement": {
-        "enabled": false,
+        "enabled": true,
         "content": [
-            "Test text."
+            "如果你遇到 Block Attack 事件报错问题，请前往QQ群下载紧急修复的LXL。"
         ]
     }
 }
