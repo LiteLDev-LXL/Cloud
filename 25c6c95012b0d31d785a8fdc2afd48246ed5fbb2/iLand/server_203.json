@@ -4,8 +4,8 @@
     "DisableClientUpdate": true,
     "Updates": [
         {
-            "NumVer": 260,
-            "Version": "2.60",
+            "NumVer": 261,
+            "Version": "2.61",
             "Description": [
                 "[+] 适配LXL0.5.12，修复活塞控制",
                 "[+] 加入插件热管理命令 land reload, land unload",
@@ -19,6 +19,7 @@
                 "[~] 修复重选领地范围报错",
                 "[~] 修复领地传送提示不安全，现在会自动等待区块加载",
                 "[~] 修复在线公告",
+                "[~] 修复修改语言不起作用的问题",
                 "[-] 删除特殊控制项UseItem"
             ],
             "FileChanged": [],
