@@ -123,7 +123,8 @@
     "Announcement": {
         "enabled": true,
         "content": [
-            "如果你遇到 Block Attack 事件报错问题，请前往QQ群下载紧急修复的LXL。"
+            "Block Attack事件报错临时修复包已发布，请需要者前往以下链接或QQ群内下载！",
+            "下载链接：https://cdisk.amd.rocks/s/qyCw"
         ]
     }
 }
