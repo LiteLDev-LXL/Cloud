@@ -1,24 +1,35 @@
 {
     "FILE_Version": 203,
-    "Force_Update": true,
-    "DisableClientUpdate": false,
+    "Force_Update": false,
+    "DisableClientUpdate": true,
     "Updates": [
-        
+        {
+            "NumVer": 270,
+            "Version": "2.70",
+            "Description": [
+                "[+] 范围查询与单坐标查询缓存",
+                "[+] OPLMgr添加禁止圈地的维度的选项",
+                "[+] 安全传送时若玩家处于飞行状态将尝试取消飞行并显示提示",
+                "[+] 添加领地间距设置，防止过近圈地导致一些附近控制项失效",
+                "[~] 获取附近领地算法优化，解决高频红石卡服问题",
+                "[~] 修复OPLMgr修改语言不及时生效",
+                "[~] 活塞推动控制改为只有影响领地内方块时控制",
+                "[~] 修复领地附近红石更新控制项没开关的问题",
+                "[~] 修复可能的弹射物控制问题",
+                "[~] 修复安全传送在某些情况下找不到落脚点的问题",
+                "[~] 修复onLeft报错",
+                "[-] 移除指令land language set"
+            ],
+            "FileChanged": [],
+            "LXL": [
+                [0,5,12]
+            ]
+        },
         {
             "NumVer": 262,
             "Version": "2.62",
-            "Description": [
-                "[~] 修复修改语言不起作用的问题",
-                "[~] 修复语言包的一处问题",
-                "[~] 修复2.60中GUI配置编辑器操作square_range引起的问题",
-                "[~] 修复框选领地过程中使用/land buy或/land ok引发的报错"
-            ],
-            "FileChanged": [
-                "$plugin_path::iland-core.lua",
-                "$data_path::lang/zh_CN.json",
-                "$data_path::lang/en_US.json",
-                "$data_path::lang/zh_TW.json"
-            ],
+            "Description": [],
+            "FileChanged": [],
             "LXL": [
                 [0,5,12]
             ]
@@ -26,21 +37,7 @@
         {
             "NumVer": 260,
             "Version": "2.60",
-            "Description": [
-                "[+] 适配LXL0.5.12，修复活塞控制",
-                "[+] 加入插件热管理命令 land reload, land unload",
-                "[+] 现在查看领地信息只展示部分LandID",
-                "[+] 活塞推动限制现在只作用于领地附近，而非领地内部",
-                "[+] 新增领地外红石更新控制",
-                "[+] 加回GUI插件配置编辑器",
-                "[+] 新增ILAPI IsListenerDisabled, GetApiVersion",
-                "[+] 修改领地价格计算方式，直接输入算式，可读性与可拓展性更好（见文档）",
-                "[+] 增强config.json读取方式，现在可以自动补全漏项和删除多余项",
-                "[~] 修复重选领地范围报错",
-                "[~] 修复领地传送提示不安全，现在会自动等待区块加载",
-                "[~] 修复在线公告",
-                "[-] 删除特殊控制项UseItem"
-            ],
+            "Description": [],
             "FileChanged": [],
             "LXL": [
                 [0,5,12]
@@ -49,15 +46,7 @@
         {
             "NumVer": 245,
             "Version": "2.45",
-            "Description": [
-                "严重Bug修复！！所有用户必须马上更新！",
-                "严重Bug修复！！所有用户必须马上更新！",
-                "严重Bug修复！！所有用户必须马上更新！",
-                "严重Bug修复！！所有用户必须马上更新！",
-                "严重Bug修复！！所有用户必须马上更新！",
-                "MineBBS: https://www.minebbs.com/resources/iland-gui-50-api.2162/",
-                "Github:  https://github.com/LiteLDev-LXL/iLand-Core/releases"
-            ],
+            "Description": [],
             "FileChanged": [],
             "LXL": [
                 [0,5,10]
