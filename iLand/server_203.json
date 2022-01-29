@@ -4,31 +4,24 @@
     "DisableClientUpdate": false,
     "Updates": [
         {
-            "NumVer": 270,
-            "Version": "2.70",
+            "NumVer": 271,
+            "Version": "Hotfix-2.71",
             "Description": [
-                "范围查询与单坐标查询缓存",
-                "OPLMgr添加禁止圈地的维度的选项",
-                "安全传送时若玩家处于飞行状态将尝试取消飞行并显示提示",
-                "添加领地间距设置，防止过近圈地导致一些附近控制项失效",
-                "获取附近领地算法优化，解决高频红石卡服问题",
-                "修复OPLMgr修改语言不及时生效",
-                "活塞推动控制改为只有影响领地内方块时控制",
-                "修复领地附近红石更新控制项没开关的问题",
-                "修复可能的弹射物控制问题",
-                "修复安全传送在某些情况下找不到落脚点的问题",
-                "修复onLeft报错",
-                "移除指令 land language set"
+                "修复 onLeft 报错",
+                "修复内存泄漏",
+                "修复无法在原领地附近重选领地的问题"
             ],
-            "FileChanged": [
-                "$plugin_path::iland-core.lua",
-                "$data_path::lang/zh_CN.json",
-                "$data_path::lang/en_US.json",
-                "$data_path::lang/zh_TW.json"
-            ],
+            "FileChanged": [],
             "LXL": [
                 [0,5,12]
             ]
+        },
+        {
+            "NumVer": 270,
+            "Version": "2.70",
+            "Description": [],
+            "FileChanged": [],
+            "LXL": []
         },
         {
             "NumVer": 262,
