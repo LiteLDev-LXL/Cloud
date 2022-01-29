@@ -1,7 +1,7 @@
 {
     "FILE_Version": 203,
     "Force_Update": false,
-    "DisableClientUpdate": false,
+    "DisableClientUpdate": true,
     "Updates": [
         {
             "NumVer": 271,
