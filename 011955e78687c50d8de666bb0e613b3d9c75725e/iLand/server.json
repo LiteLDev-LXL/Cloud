@@ -1,0 +1,22 @@
+{
+    "FILE_Version": 202,
+    "Force_Update": false,
+    "DisableClientUpdate": true,
+    "Updates": [
+        {
+            "NumVer": 999,
+            "Version": "What the fuck.",
+            "Description": [
+                "你的领地版本太旧了，赶紧更新吧。",
+                "Your iland is toooooooooooooooooooooo old!"
+            ],
+            "FileChanged": []
+        }
+    ],
+    "Announcement": {
+        "enabled": true,
+        "content": [
+            "Test only~"
+        ]
+    }
+}
