@@ -77,7 +77,8 @@
         "enabled": true,
         "content": [
             "如果遇到Block Attack事件报错，请升级至最新版LiteLoader",
-            "2.70版解决了红石更新（onRedStoneUpdate）和活塞推动（onPistonTryPush）卡服，如果没更新的请尽快更新，已更新的可以再把这两个监听打开"
+            "2.7x版解决了红石更新（onRedStoneUpdate）和活塞推动（onPistonTryPush）卡服，可以重新打开这两个监听了",
+            "文档站修缮已完成，快去看看？https://myland.amd.rocks/"
         ]
     }
 }
