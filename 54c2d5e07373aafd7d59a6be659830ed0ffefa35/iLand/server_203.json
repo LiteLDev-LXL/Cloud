@@ -76,9 +76,9 @@
     "Announcement": {
         "enabled": true,
         "content": [
-            "如果遇到Block Attack事件报错，请升级至最新版LiteLoader",
             "2.7x版解决了红石更新（onRedStoneUpdate）和活塞推动（onPistonTryPush）卡服，可以重新打开这两个监听了",
-            "文档站修缮已完成，快去看看？https://myland.amd.rocks/"
+            "文档站修缮已完成，快去看看? https://myland.amd.rocks/",
+            "AirLand Project祝大家新春快乐! 新的一年祝基岩圈越来越好! "
         ]
     }
 }
