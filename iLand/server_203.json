@@ -76,7 +76,8 @@
     "Announcement": {
         "enabled": true,
         "content": [
-            "说明书: https://myland.amd.rocks/"
+            "说明书: https://myland.amd.rocks/",
+            "onFireworkShootWithCrossbow事件报错会导致用弩发射烟花控制失效，但其他功能没有问题，请等待更新，不要重复反馈。"
         ]
     }
 }
