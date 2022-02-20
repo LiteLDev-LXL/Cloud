@@ -4,9 +4,10 @@
     "DisableClientUpdate": true,
     "Updates": [
         {
-            "NumVer": 280,
-            "Version": "2.80",
+            "NumVer": 281,
+            "Version": "2.81-hotfix",
             "Description": [
+                "[Hotfix] 修复领地传送无法使用",
                 "[+] 现在将追踪在领地外的弹射物射击者",
                 "[+] 重新设计领地数据管理模块，提升大量领地数据的读写性能",
                 "[+] ILAPI现在会检查传入的参数",
