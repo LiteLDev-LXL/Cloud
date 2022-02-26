@@ -4,10 +4,12 @@
     "DisableClientUpdate": true,
     "Updates": [
         {
-            "NumVer": 281,
-            "Version": "2.81-hotfix",
+            "NumVer": 282,
+            "Version": "2.82-hotfix",
             "Description": [
                 "[Hotfix] 修复领地传送无法使用",
+                "[Hotfix] 修复领地管理器使用搜索后打开了错误的领地",
+                "[Hotfix] 加回冲突检查坐标显示，并使用弹窗提示替代Actionbar",
                 "[+] 现在将追踪在领地外的弹射物射击者",
                 "[+] 重新设计领地数据管理模块，提升大量领地数据的读写性能",
                 "[+] ILAPI现在会检查传入的参数",
@@ -100,7 +102,7 @@
         }
     ],
     "Announcement": {
-        "enabled": true,
+        "enabled": false,
         "content": [
             "新增领地事件系统，快去康康！",
             "说明书: https://myland.amd.rocks/"
