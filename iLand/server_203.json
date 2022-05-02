@@ -4,15 +4,25 @@
     "DisableClientUpdate": true,
     "Updates": [
         {
+            "NumVer": 284,
+            "Version": "2.84",
+            "Description": [
+                "[+] 使用桶控制范围改为领地附近7格内",
+                "[+] 改善标准英文翻译（由HongyiMC, Gamershy贡献）",
+                "[~] 修复 ModalForm 中部分转义失效的问题",
+                "[~] 修复可以通过领地过户超过领地数量限制的问题",
+                "[~] 修复可以在领地内使用斧头为原木去皮的问题",
+                "[~] 修复可以在领地内放置头颅等方块的问题",
+                "[~] 修复正在使用中的各种炉子可以被打开的问题",
+                "[~] 修复某些情况下玩家选择器选项错误的问题"
+            ],
+            "FileChanged": [],
+            "LXL": []
+        },
+        {
             "NumVer": 283,
             "Version": "2.83",
-            "Description": [
-                "[~] 为部分事件（`onFarmLandDecay`，`onStepOnPressurePlate`）添加无效坐标检查",
-                "[~] 修复 `ILAPI_CreateLand` 可能因提供的XUID未使用过导致的报错",
-                "[~] 修复部分玄学原因导致的 `MEM[xuid]` 无效的报错",
-                "[~] 修复领地昵称/领地备注中存在`%`导致的报错",
-                "[~] 修复获取玩家列表时空玩家名也被包含的问题"
-            ],
+            "Description": [],
             "FileChanged": [],
             "LXL": []
         },
