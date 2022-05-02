@@ -1,0 +1,97 @@
+{
+    "FILE_Version": 203,
+    "Force_Update": false,
+    "DisableClientUpdate": true,
+    "Updates": [
+        {
+            "NumVer": 283,
+            "Version": "2.83",
+            "Description": [
+                "[~] 为部分事件（`onFarmLandDecay`，`onStepOnPressurePlate`）添加无效坐标检查",
+                "[~] 修复 `ILAPI_CreateLand` 可能因提供的XUID未使用过导致的报错",
+                "[~] 修复部分玄学原因导致的 `MEM[xuid]` 无效的报错",
+                "[~] 修复领地昵称/领地备注中存在`%`导致的报错",
+                "[~] 修复获取玩家列表时空玩家名也被包含的问题"
+            ],
+            "FileChanged": [],
+            "LXL": []
+        },
+        {
+            "NumVer": 282,
+            "Version": "2.82-hotfix",
+            "Description": [],
+            "FileChanged": [],
+            "LXL": []
+        },
+        {
+            "NumVer": 271,
+            "Version": "2.71-hotfix",
+            "Description": [],
+            "FileChanged": [],
+            "LXL": []
+        },
+        {
+            "NumVer": 270,
+            "Version": "2.70",
+            "Description": [],
+            "FileChanged": [],
+            "LXL": []
+        },
+        {
+            "NumVer": 262,
+            "Version": "2.62",
+            "Description": [],
+            "FileChanged": [],
+            "LXL": []
+        },
+        {
+            "NumVer": 260,
+            "Version": "2.60",
+            "Description": [],
+            "FileChanged": [],
+            "LXL": []
+        },
+        {
+            "NumVer": 245,
+            "Version": "2.45",
+            "Description": [],
+            "FileChanged": [],
+            "LXL": []
+        },
+        {
+            "NumVer": 244,
+            "Version": "2.44",
+            "Description": [],
+            "FileChanged": [],
+            "LXL": []
+        },
+        {
+            "NumVer": 243,
+            "Version": "2.43",
+            "Description": [],
+            "FileChanged": [],
+            "LXL": []
+        },
+        {
+            "NumVer": 242,
+            "Version": "2.42-hotfix",
+            "Description": [],
+            "FileChanged": [],
+            "LXL": []
+        },
+        {
+            "NumVer": 241,
+            "Version": "2.41",
+            "Description": [],
+            "FileChanged": [],
+            "LXL": []
+        }
+    ],
+    "Announcement": {
+        "enabled": false,
+        "content": [
+            "新增领地事件系统，快去康康！",
+            "说明书: https://myland.amd.rocks/"
+        ]
+    }
+}
